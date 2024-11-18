@@ -36,17 +36,16 @@ Pelatihan model dilakukan menggunakan platform Edge Impulse. Berikut langkah-lan
     - Buat proyek baru dan pilih Add existing data di halaman Dashboard.
     - Pilih Upload Data dan pilih file dataset anda.
 3. Data acquisition:
-    - Di halaman Data Acquisition, pilih Labeling Queue.
+    - Pilih Labeling Queue.
     - Tandai objek pada gambar dan beri label sesuai keinginan, kemudian simpan label tersebut.
 4. Create Impulse:
-    - Di halaman Create Impulse. Jika muncul Configure your target device and application budget, pilih Espressif ESP-EYE (ESP32 240MHZ) lalu save.
+    - Jika muncul Configure your target device and application budget, pilih Espressif ESP-EYE (ESP32 240MHZ) lalu save.
     - Pilih Image pada Add a processing block.
     - Pilih Object Detection (images) pada Add a learning block dan simpan impulse.
 5. Image:
-    - Pada halaman Image, pilih Grayscale untuk color depth dan Save parameters.
+    - Pilih Grayscale untuk color depth dan Save parameters.
     - Klik Generate Features, dan pastikan statusnya Job completed (success).
 6. Object Detection:
-    - Di halaman Object Detection
     - Atur Number of training cycles ke 60
     - Atur Learning rate ke 0.005
     - Pilih model FOMO MobileNetV2 0.35. Kemudian klik Save & Train.
