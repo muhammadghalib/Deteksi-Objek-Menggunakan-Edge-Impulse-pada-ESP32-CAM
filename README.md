@@ -1,4 +1,4 @@
-# ARCoS-KRSRI-2024-EdgeImpulse
+# 📷 Deteksi Objek dengan Edge Impulse & ESP32-CAM
 
 Halo semuanya saya ghalibbbb
 
