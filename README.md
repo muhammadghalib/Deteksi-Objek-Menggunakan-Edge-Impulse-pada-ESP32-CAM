@@ -48,7 +48,7 @@ Pelatihan model dilakukan menggunakan platform Edge Impulse. Berikut langkah-lan
 6. Object Detection:
     - Di halaman Object Detection
     - Atur Number of training cycles ke 60
-    - Learning rate ke 0.005
+    - Atur Learning rate ke 0.005
     - Pilih model FOMO MobileNetV2 0.35. Kemudian klik Save & Train.
     - Pastikan statusnya Job completed (success).
 7. Deployment:
