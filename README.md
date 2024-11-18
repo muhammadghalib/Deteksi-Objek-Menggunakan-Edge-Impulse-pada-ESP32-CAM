@@ -48,7 +48,7 @@ Pelatihan model dilakukan menggunakan platform Edge Impulse. Berikut langkah-lan
 6. Object Detection:
     - Di halaman Object Detection, atur Number of training cycles ke 60, Learning rate ke 0.005, dan pilih model FOMO MobileNetV2 0.35. Kemudian klik Save & Train.
     - Pastikan statusnya Job completed (success).
-7. Ekspor Model:
+7. Deployment:
     - Pada Search deployment options pilih Arduino library. Lalu klik Build.
 
 2️⃣ Pengunggahan ke ESP32-CAM
