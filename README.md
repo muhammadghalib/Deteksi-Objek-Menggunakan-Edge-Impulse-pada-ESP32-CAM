@@ -16,6 +16,7 @@ Apa yang dapat dilakukan?
 ## 📋 Prasyarat
 **Perangkat Keras**
 1. ESP32-CAM
+2. Kabel Uploader Micro USB/Type C
 
 **Perangkat Lunak**
 1. Akun Edge Impulse – [Daftar di sini](https://www.edgeimpulse.com)
