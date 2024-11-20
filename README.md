@@ -73,15 +73,18 @@ Pelatihan model dilakukan menggunakan platform Edge Impulse. Berikut langkah-lan
 Pengunggahan ke ESP32-CAM mencakup beberapa komponen penting berikut ini:
 1. **Menambahkan Library**
     - Download library dari hasil build di Edge Impulse.
-      ![Panduan Upload Kode](./Documentation/images/Panduan_upload_kode/1.1.jpg "Langkah 1.1 Library")
+      ![Panduan Upload Kode](./Documentation/images/Panduan_upload_kode/1.1.jpg "Langkah 1.1 Upload")
     - Di Arduino IDE (v1.8.19), pilih Sketch > Include Library > Add .ZIP Library, lalu tambahkan file ZIP yang sudah di-download.
-      ![Panduan Upload Kode](./Documentation/images/Panduan_upload_kode/1.2.jpg "Langkah 1.2 Library")
+      ![Panduan Upload Kode](./Documentation/images/Panduan_upload_kode/1.2.jpg "Langkah 1.2 Upload")
 
 3. **Akses kode**
     - Buka File > Examples > (Nama Library) > esp32 > esp32_camera.
+      ![Panduan Upload Kode](./Documentation/images/Panduan_upload_kode/1.3.jpg "Langkah 1.3 Upload")
     - Jika menggunakan kamera AI Thinker, Uncomment baris #define CAMERA_MODEL_AI_THINKER.
+      ![Panduan Upload Kode](./Documentation/images/Panduan_upload_kode/1.4.jpg "Langkah 1.4 Upload")
 
 5. **Upload**
     - Atur konfigurasi upload di Tools seperti digambar bawah ini, lalu klik Upload.
+      ![Panduan Upload Kode](./Documentation/images/Panduan_upload_kode/1.5.jpg "Langkah 1.5 Upload")
 
 3️⃣ **Uji dan Implementasi**
