@@ -30,11 +30,15 @@ Pelatihan model dilakukan menggunakan platform Edge Impulse. Berikut langkah-lan
 1. Kumpulkan Dataset:
     - Gunakan kamera ESP32-CAM untuk mengumpulkan gambar.
     - Pastikan dataset memiliki variasi kondisi pencahayaan, sudut, dan latar belakang untuk meningkatkan akurasi.
+      ![Panduan Pengumpulan Dataset](./Documentation/images/Panduan_pengumpulan_dataset/1.1.jpg "Langkah 1.1 Pengumpulan Dataset")
     - Pastikan dataset memiliki resolusi 320 x 240, karena ESP32-CAM bekerja dengan resolusi tersebut saat pendeteksian objek.
+      ![Panduan Pengumpulan Dataset](./Documentation/images/Panduan_pengumpulan_dataset/1.2.jpg "Langkah 1.2 Pengumpulan Dataset")
 2. Dashboard:
     - Pastikan sudah daftar dan login ke Edge Impulse.
     - Buat proyek baru dan pilih Add existing data di halaman Dashboard.
-    - Pilih Upload Data dan pilih file dataset anda.
+      ![Panduan Edge Impulse](./Documentation/images/Panduan_edge_impulse/2.3.jpg "Langkah 2.3 Edge Impulse")
+    - Pilih Upload Data dan pilih choose file dataset anda.
+      ![Panduan Edge Impulse](./Documentation/images/Panduan_edge_impulse/2.4.jpg "Langkah 2.4 Edge Impulse")
 3. Data acquisition:
     - Pilih Labeling Queue.
       ![Panduan Edge Impulse](./Documentation/images/Panduan_edge_impulse/2.5.jpg "Langkah 2.5 Edge Impulse")
