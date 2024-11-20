@@ -32,7 +32,7 @@ Pelatihan model dilakukan menggunakan platform Edge Impulse. Berikut langkah-lan
     - Pastikan dataset memiliki variasi kondisi pencahayaan, sudut, dan latar belakang untuk meningkatkan akurasi.
       ![Panduan Pengumpulan Dataset](./Documentation/images/Panduan_pengumpulan_dataset/1.1.jpg "Langkah 1.1 Pengumpulan Dataset")
     - Pastikan dataset memiliki resolusi 320 x 240, karena ESP32-CAM bekerja dengan resolusi tersebut saat pendeteksian objek.
-      ![Panduan Pengumpulan Dataset](./Documentation/images/Panduan_pengumpulan_dataset/1.2.jpg "Langkah 1.2 Pengumpulan Dataset")  
+      ![Panduan Pengumpulan Dataset](./Documentation/images/Panduan_pengumpulan_dataset/1.2.jpg "Langkah 1.2 Pengumpulan Dataset")
       
 2. **Dashboard:**
     - Pastikan sudah daftar dan login ke Edge Impulse.
@@ -70,5 +70,18 @@ Pelatihan model dilakukan menggunakan platform Edge Impulse. Berikut langkah-lan
       ![Panduan Edge Impulse](./Documentation/images/Panduan_edge_impulse/2.13.jpg "Langkah 2.13 Edge Impulse")
 
 2️⃣ **Pengunggahan ke ESP32-CAM**
+Pengunggahan ke ESP32-CAM mencakup beberapa komponen penting berikut ini:
+1. **Menambahkan Library**
+    - Download library dari hasil build di Edge Impulse.
+      ![Panduan Upload Kode](./Documentation/images/Panduan_upload_kode/1.1.jpg "Langkah 1.1 Library")
+    - Di Arduino IDE (v1.8.19), pilih Sketch > Include Library > Add .ZIP Library, lalu tambahkan file ZIP yang sudah di-download.
+      ![Panduan Upload Kode](./Documentation/images/Panduan_upload_kode/1.2.jpg "Langkah 1.2 Library")
+
+3. **Akses kode**
+    - Buka File > Examples > (Nama Library) > esp32 > esp32_camera.
+    - Jika menggunakan kamera AI Thinker, Uncomment baris #define CAMERA_MODEL_AI_THINKER.
+
+5. **Upload**
+    - Atur konfigurasi upload di Tools seperti digambar bawah ini, lalu klik Upload.
 
 3️⃣ **Uji dan Implementasi**
