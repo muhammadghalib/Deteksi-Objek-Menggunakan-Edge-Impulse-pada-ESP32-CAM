@@ -36,21 +36,24 @@ Pelatihan model dilakukan menggunakan platform Edge Impulse. Berikut langkah-lan
     - Buat proyek baru dan pilih Add existing data di halaman Dashboard.
     - Pilih Upload Data dan pilih file dataset anda.
 3. Data acquisition:
-![Panduan Edge Impulse](./Documentation/images/Panduan_edge_impulse/2.5.jpg "Langkah 2.5 Edge Impulse")
     - Pilih Labeling Queue.
+      ![Panduan Edge Impulse](./Documentation/images/Panduan_edge_impulse/2.5.jpg "Langkah 2.5 Edge Impulse")
     - Tandai objek pada gambar dan beri label sesuai keinginan, kemudian simpan label tersebut.
 5. Create Impulse:
-![Panduan Edge Impulse](./Documentation/images/Panduan_edge_impulse/2.8.jpg "Langkah 2.8 Edge Impulse")
     - Jika muncul Configure your target device and application budget, pilih Espressif ESP-EYE (ESP32 240MHZ) lalu save.
+      ![Panduan Edge Impulse](./Documentation/images/Panduan_edge_impulse/2.6.jpg "Langkah 2.6 Edge Impulse")
     - Pilih Image pada Add a processing block.
+      ![Panduan Edge Impulse](./Documentation/images/Panduan_edge_impulse/2.7.jpg "Langkah 2.7 Edge Impulse")
     - Pilih Object Detection (images) pada Add a learning block dan simpan impulse.
+      ![Panduan Edge Impulse](./Documentation/images/Panduan_edge_impulse/2.8.jpg "Langkah 2.8 Edge Impulse")
 7. Image:
     - Pilih Grayscale untuk color depth dan Save parameters.
+      ![Panduan Edge Impulse](./Documentation/images/Panduan_edge_impulse/2.9.jpg "Langkah 2.9 Edge Impulse")
     - Klik Generate Features, dan pastikan statusnya Job completed (success).
+      ![Panduan Edge Impulse](./Documentation/images/Panduan_edge_impulse/2.11.jpg "Langkah 2.11 Edge Impulse")
 8. Object Detection:
-    - Atur Number of training cycles ke 60
-    - Atur Learning rate ke 0.005
-    - Pilih model FOMO MobileNetV2 0.35. Kemudian klik Save & Train.
+    - Atur Number of training cycles ke 60, Atur Learning rate ke 0.005, Pilih model FOMO MobileNetV2 0.35. Kemudian klik Save & Train.
+      ![Panduan Edge Impulse](./Documentation/images/Panduan_edge_impulse/2.12.jpg "Langkah 2.12 Edge Impulse")
     - Pastikan statusnya Job completed (success).
 9. Deployment:
     - Pada Search deployment options pilih Arduino library. Lalu klik Build.
