@@ -70,7 +70,7 @@ Pelatihan model dilakukan menggunakan platform Edge Impulse. Berikut langkah-lan
       ![Panduan Edge Impulse](./Documentation/images/Panduan_edge_impulse/2.13.jpg "Langkah 2.13 Edge Impulse")
 
 2️⃣ **Pengunggahan ke ESP32-CAM**
-Pengunggahan ke ESP32-CAM mencakup beberapa komponen penting berikut ini:
+Pengunggahan ke **ESP32-CAM** mencakup beberapa komponen penting berikut ini:
 1. **Menambahkan Library**
     - Download library dari hasil build di Edge Impulse.
       ![Panduan Upload Kode](./Documentation/images/Panduan_upload_kode/1.1.jpg "Langkah 1.1 Upload")
@@ -89,7 +89,7 @@ Pengunggahan ke ESP32-CAM mencakup beberapa komponen penting berikut ini:
 
 3️⃣ **Uji dan Implementasi**
 1. **Uji Deteksi Objek**
-    - Arahkan **ESP32CAM** ke arah objek
+    - Arahkan **ESP32-CAM** ke arah objek
       ![Panduan Uji Deteksi](./Documentation/images/Uji_deteksi_objek/1.2.jpg "Langkah 1.2 Deteksi Objek")
     - Cek hasilnya di Serial Monitor.
       ![Panduan Uji Deteksi](./Documentation/images/Uji_deteksi_objek/1.1.jpg "Langkah 1.1 Deteksi Objek")
