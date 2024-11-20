@@ -100,17 +100,19 @@ Fitur ini menampilkan posisi objek yang terdeteksi secara real-time dalam grafik
 Fitur ini menerima data objek terdeteksi dari ESP32-CAM melalui port serial. Program Python memproses data tersebut, mengekstrak koordinat objek, dan menggambar posisi objek dalam grafik. Grafik ini diperbarui setiap kali data baru diterima dari perangkat.
 
 2️⃣ **Panduan Penggunaan Fitur**  
-1. Install Python dan Library
+1. **Install Python dan Library**
     - Pastikan Python dan library matplotlib terpasang di komputer Anda. Install dengan perintah:
       ![Panduan Fitur Ekstra](./Documentation/images/Fitur_Ekstra/1.1.jpg "Langkah 1.1 Fitur Ekstra")  
+2. **Hubungkan ESP32-CAM ke komputer**
     - Sambungkan **ESP32-CAM** ke komputer melalui kabel USB dan pastikan port serial yang digunakan sudah benar.  
+3. **Jalankan Program**
     - Jalankan program Python yang sudah disediakan untuk memulai visualisasi posisi objek yang terdeteksi.  
       ![Panduan Fitur Ekstra](./Documentation/images/Fitur_Ekstra/1.3.jpg "Langkah 1.3 Fitur Ekstra")
 
 ## 🔗 **Referensi**
-1. [Edge Impulse for Arduino Library](https://docs.edgeimpulse.com/docs/run-inference/arduino-library)
+1. **[Edge Impulse for Arduino Library](https://docs.edgeimpulse.com/docs/run-inference/arduino-library)**
     - Dokumentasi ini menjelaskan langkah-langkah untuk mengintegrasikan model machine learning yang dilatih di Edge Impulse dengan perangkat berbasis Arduino, seperti ESP32. Dengan menggunakan Edge Impulse Arduino Library.
-2. [Youtube Video Tutorial from DroneBot Workshop](https://www.youtube.com/watch?v=HDRvZ_BYd08&list=WL&index=6&t=1731s)
+2. **[Youtube Video Tutorial from DroneBot Workshop](https://www.youtube.com/watch?v=HDRvZ_BYd08&list=WL&index=6&t=1731s)**
     - Video ini memberikan panduan langkah-demi-langkah, termasuk pengumpulan data, pelatihan model, dan penerapan inferensi di perangkat keras seperti ESP32.
 
 ## 🎉 **Happy Coding! Good luck with your project!**
