@@ -16,8 +16,6 @@ Apa yang dapat dilakukan?
 ## 📋 Prasyarat
 **Perangkat Keras**
 1. ESP32-CAM
-2. Kabel jumper (Opsional - Sesuai versi ESP32-CAM)
-3. Sumber Daya Listrik (baterai atau kabel USB).
 
 **Perangkat Lunak**
 1. Akun Edge Impulse – [Daftar di sini](https://www.edgeimpulse.com)
