@@ -101,6 +101,7 @@ Fitur ini menampilkan posisi objek yang terdeteksi secara real-time dalam grafik
 Fitur ini menerima data objek terdeteksi dari ESP32-CAM melalui port serial. Program Python memproses data tersebut, mengekstrak koordinat objek, dan menggambar posisi objek dalam grafik. Grafik ini diperbarui setiap kali data baru diterima dari perangkat.
 
 2️⃣ **Panduan Penggunaan Fitur**  
+1. Install Python dan Library
     - Pastikan Python dan library matplotlib terpasang di komputer Anda. Install dengan perintah:
       ![Panduan Fitur Ekstra](./Documentation/images/Fitur_Ekstra/1.1.jpg "Langkah 1.1 Fitur Ekstra")  
     - Sambungkan ESP32-CAM ke komputer melalui kabel USB dan pastikan port serial yang digunakan sudah benar.  
