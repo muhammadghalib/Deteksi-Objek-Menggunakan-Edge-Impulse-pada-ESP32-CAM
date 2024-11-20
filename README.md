@@ -104,6 +104,6 @@ Fitur ini menerima data objek terdeteksi dari ESP32-CAM melalui port serial. Pro
 1. Install Python dan Library
     - Pastikan Python dan library matplotlib terpasang di komputer Anda. Install dengan perintah:
       ![Panduan Fitur Ekstra](./Documentation/images/Fitur_Ekstra/1.1.jpg "Langkah 1.1 Fitur Ekstra")  
-    - Sambungkan ESP32-CAM ke komputer melalui kabel USB dan pastikan port serial yang digunakan sudah benar.  
+    - Sambungkan **ESP32-CAM** ke komputer melalui kabel USB dan pastikan port serial yang digunakan sudah benar.  
     - Jalankan program Python yang sudah disediakan untuk memulai visualisasi posisi objek yang terdeteksi.  
       ![Panduan Fitur Ekstra](./Documentation/images/Fitur_Ekstra/1.3.jpg "Langkah 1.3 Fitur Ekstra") 
