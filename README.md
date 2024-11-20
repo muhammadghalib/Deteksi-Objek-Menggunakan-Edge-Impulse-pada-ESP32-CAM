@@ -94,7 +94,7 @@ Pengunggahan ke **ESP32-CAM** mencakup beberapa komponen penting berikut ini:
     - Cek hasilnya di Serial Monitor.
       ![Panduan Uji Deteksi](./Documentation/images/Uji_deteksi_objek/1.1.jpg "Langkah 1.1 Deteksi Objek")
 
-## 📊 **Fitur Ekstra: Visualisasi Posisi Objek**
+## 📊 **Visualisasi Posisi Objek (Opsional)**
 Fitur ini menampilkan posisi objek yang terdeteksi secara real-time dalam grafik 2D, dengan warna berbeda untuk tiap objek. Memudahkan pemantauan posisi objek secara langsung, dibandingkan harus melihat data di serial monitor.
 
 1️⃣ **Cara Kerja Fitur**  
