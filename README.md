@@ -72,8 +72,8 @@ Pelatihan model dilakukan menggunakan platform Edge Impulse. Berikut langkah-lan
 2️⃣ **Pengunggahan ke ESP32-CAM**
 Pengunggahan ke **ESP32-CAM** mencakup beberapa komponen penting berikut ini:
 1. **Menambahkan Library**
-    - Download library dari hasil build di Edge Impulse.
-      ![Panduan Upload Kode](./Documentation/images/Panduan_upload_kode/1.1.jpg "Langkah 1.1 Upload")
+    - Download library dari hasil build di Edge Impulse.  
+      ![Panduan Upload Kode](./Documentation/images/Panduan_upload_kode/1.1.jpg "Langkah 1.1 Upload")  
     - Di Arduino IDE (v1.8.19), pilih Sketch > Include Library > Add .ZIP Library, lalu tambahkan file ZIP yang sudah di-download.
       ![Panduan Upload Kode](./Documentation/images/Panduan_upload_kode/1.2.jpg "Langkah 1.2 Upload")
 
@@ -93,3 +93,16 @@ Pengunggahan ke **ESP32-CAM** mencakup beberapa komponen penting berikut ini:
       ![Panduan Uji Deteksi](./Documentation/images/Uji_deteksi_objek/1.2.jpg "Langkah 1.2 Deteksi Objek")
     - Cek hasilnya di Serial Monitor.
       ![Panduan Uji Deteksi](./Documentation/images/Uji_deteksi_objek/1.1.jpg "Langkah 1.1 Deteksi Objek")
+
+## 📊 **Fitur Ekstra: Visualisasi Posisi Objek**
+Fitur ini menampilkan posisi objek yang terdeteksi secara real-time dalam grafik 2D, dengan warna berbeda untuk tiap objek. Memudahkan pemantauan posisi objek secara langsung, dibandingkan harus melihat data di serial monitor.
+
+1️⃣ **Cara Kerja Fitur**  
+Fitur ini menerima data objek terdeteksi dari ESP32-CAM melalui port serial. Program Python memproses data tersebut, mengekstrak koordinat objek, dan menggambar posisi objek dalam grafik. Grafik ini diperbarui setiap kali data baru diterima dari perangkat.
+
+2️⃣ **Panduan Penggunaan Fitur**  
+    - Pastikan Python dan library matplotlib terpasang di komputer Anda. Install dengan perintah:
+      ![Panduan Fitur Ekstra](./Documentation/images/Fitur_Ekstra/1.1.jpg "Langkah 1.1 Fitur Ekstra")  
+    - Sambungkan ESP32-CAM ke komputer melalui kabel USB dan pastikan port serial yang digunakan sudah benar.  
+    - Jalankan program Python yang sudah disediakan untuk memulai visualisasi posisi objek yang terdeteksi.  
+      ![Panduan Fitur Ekstra](./Documentation/images/Fitur_Ekstra/1.3.jpg "Langkah 1.3 Fitur Ekstra") 
