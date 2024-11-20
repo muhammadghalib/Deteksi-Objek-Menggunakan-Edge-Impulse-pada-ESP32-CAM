@@ -57,6 +57,7 @@ Pelatihan model dilakukan menggunakan platform Edge Impulse. Berikut langkah-lan
     - Pastikan statusnya Job completed (success).
 9. Deployment:
     - Pada Search deployment options pilih Arduino library. Lalu klik Build.
+      ![Panduan Edge Impulse](./Documentation/images/Panduan_edge_impulse/2.13.jpg "Langkah 2.13 Edge Impulse")
 
 2️⃣ Pengunggahan ke ESP32-CAM
 
