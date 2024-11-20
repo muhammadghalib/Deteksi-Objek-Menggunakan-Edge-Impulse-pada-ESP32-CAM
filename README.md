@@ -89,6 +89,7 @@ Pengunggahan ke ESP32-CAM mencakup beberapa komponen penting berikut ini:
 
 3️⃣ **Uji dan Implementasi**
 1. **Uji Deteksi Objek**
-    - Cek hasilnya di Serial Monitor.
+    - Arahkan **ESP32CAM** ke arah objek
       ![Panduan Uji Deteksi](./Documentation/images/Uji_deteksi_objek/1.2.jpg "Langkah 1.2 Deteksi Objek")
+    - Cek hasilnya di Serial Monitor.
       ![Panduan Uji Deteksi](./Documentation/images/Uji_deteksi_objek/1.1.jpg "Langkah 1.1 Deteksi Objek")
