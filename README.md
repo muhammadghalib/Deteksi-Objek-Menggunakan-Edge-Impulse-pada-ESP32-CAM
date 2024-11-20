@@ -27,7 +27,7 @@ Apa yang dapat dilakukan?
 ## 📖 Panduan Penggunaan
 1️⃣ **Pelatihan Model**
 Pelatihan model dilakukan menggunakan platform Edge Impulse. Berikut langkah-langkahnya:
-1. Kumpulkan Dataset:
+1. **Kumpulkan Dataset:**
     - Gunakan kamera ESP32-CAM untuk mengumpulkan gambar.
     - Pastikan dataset memiliki variasi kondisi pencahayaan, sudut, dan latar belakang untuk meningkatkan akurasi.
       ![Panduan Pengumpulan Dataset](./Documentation/images/Panduan_pengumpulan_dataset/1.1.jpg "Langkah 1.1 Pengumpulan Dataset")
