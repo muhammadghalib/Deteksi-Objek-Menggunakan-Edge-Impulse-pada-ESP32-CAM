@@ -115,4 +115,4 @@ Fitur ini menerima data objek terdeteksi dari ESP32-CAM melalui port serial. Pro
 2. **[Youtube Video Tutorial from DroneBot Workshop](https://www.youtube.com/watch?v=HDRvZ_BYd08&list=WL&index=6&t=1731s)**
     - Video ini memberikan panduan langkah-demi-langkah, termasuk pengumpulan data, pelatihan model, dan penerapan inferensi di perangkat keras seperti ESP32.
 
-## 🎉 **Stay Curious and Deploy Your Model**
+## 🎉 **Stay Curious and Good luck with Your Project!**
