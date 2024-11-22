@@ -24,7 +24,7 @@ Apa yang dapat dilakukan?
 3. Board ESP32 2.0.4.
 
 ## 📖 Panduan Penggunaan
-1️⃣ **Pelatihan Model**
+1️⃣ **Pelatihan Model**  
 Pelatihan model dilakukan menggunakan platform Edge Impulse. Berikut langkah-langkahnya:
 1. **Kumpulkan Dataset:**
     - Gunakan kamera ESP32-CAM untuk mengumpulkan gambar.
