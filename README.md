@@ -1,4 +1,4 @@
-## 📷 Deteksi Objek Menggunakan Model FOMO dari Edge Impulse pada ESP32-CAM
+## 📷 Deteksi Objek Menggunakan Model FOMO Edge Impulse pada ESP32-CAM
 Proyek ini bertujuan untuk mengembangkan sistem deteksi objek berbasis machine learning yang diterapkan pada perangkat ESP32-CAM menggunakan platform Edge Impulse. Sistem ini akan mampu mengidentifikasi objek dalam gambar secara efisien meskipun dengan perangkat keras berdaya rendah.
 
 ## 🚀 Deskripsi proyek
